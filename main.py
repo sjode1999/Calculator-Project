@@ -17,7 +17,12 @@ def multiply(x, y):
 
 
 def divide(x, y):
-    return x / y
+    if y != 0:
+        return x/y
+    else:
+        return("Can not divide by zero")
+
+
 
 
 print("User Menu")
@@ -55,6 +60,4 @@ while True:
         break
     else:
         print("Invalid Selection")
-
-
 
