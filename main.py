@@ -66,3 +66,5 @@ while True:
         continue
 
         print('hello')
+
+        print()
