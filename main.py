@@ -59,6 +59,7 @@ while True:
     while True:
         another_calculation = input("Would you like to make a new calculation (Y/N): ")
         if another_calculation.upper() == "N":
+            print("Thanks for using")
             sys.exit()
         if another_calculation.upper() == "Y":
             break
